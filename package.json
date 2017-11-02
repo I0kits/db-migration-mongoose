@@ -15,7 +15,5 @@
     "lodash": "^4.17.4",
     "migrate-mongoose": "^3.2.2"
   },
-  "devDependencies": {
-    "mongodb-prebuilt": "^6.3.3"
-  }
+  "devDependencies": {}
 }
