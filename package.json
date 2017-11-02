@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "name": "db-migration-mongoose",
+  "author": "Wang Wei <weiwang@thoughtworks.com>",
+  "scripts": {
+    "start": "node index.js",
+    "mongo": "node src/utils/mongodb.js",
+    "migrate": "migrate"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "getenv": "^0.7.0",
+    "lodash": "^4.17.4",
+    "migrate-mongoose": "^3.2.2"
+  },
+  "devDependencies": {
+    "mongodb-prebuilt": "^6.3.3"
+  }
+}
